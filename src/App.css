@@ -1,0 +1,58 @@
+.PianoCont{
+  width:100vw;
+  height: 100vh;
+  background-color: rgb(114, 32, 32);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PianoContTexts > p{
+  font-size:18px;
+  margin-top: 30px;
+
+}
+
+
+.piano{
+  display:flex ;
+  margin-top:30px ;
+  position: relative;
+}
+
+.white{
+  width:100px;
+  height: 400px;
+  background-color: white;
+  color:black;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:10px 0px;
+  border-left: 2px solid rgb(114, 32, 32);
+
+}
+
+
+
+.black{
+  width:60px;
+  height: 240px;
+  background-color: black;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:10px 0px;
+  border: 2px;
+  margin: 0px -30px;
+  z-index:2;
+}
+
+
+.active{
+  opacity:0.5;
+}
